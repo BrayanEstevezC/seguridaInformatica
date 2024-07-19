@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    z-index: 99;
+}
+
+main {
+    flex: 1 0 auto;
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+footer {
+    flex-shrink: 0;
+    bottom: 0;
+}
+
+
+:root{
+    --upt:#003da6;
+}
+.bg-upt{background: var(--upt);}
+.h-100{height: 100%;}
+
+.logo {
+    height: 40%;
+    width: 100%;
+    filter: drop-shadow(0 0 20px rgba(0,0,0,.8));
+}
+
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.introduccion{
+    color: #6c757d;
+    cursor: pointer;
+}
+.introduccion:hover{
+    color: #6c757d;
+    text-decoration:underline;
+}
+.img{width: 100%;}
+
